@@ -19,10 +19,6 @@ import pandas as pd
 
 import pandas as pd
 
-file_path = "/content/drive/My Drive/Colab Notebooks/customers.csv"
-df = pd.read_csv(file_path)
-print(df.head())  # Display first few rows
-
 """**Check for Missing Values**"""
 
 print(df.isnull().sum())  # Shows the number of missing values per column
@@ -183,19 +179,6 @@ for col in ["Name", "Email", "City", "Country"]:
 # Check the output
 print(df.head())
 
-"""**Save and Download the Cleaned Dataset**"""
-
-file_path = "/content/drive/My Drive/Colab Notebooks/cleaned_data1.csv"
-df.to_csv(file_path, index=False)
-print(f"File saved to: {file_path}")
-
-from google.colab import files
-
-# Save DataFrame as CSV
-df.to_csv("cleaned_data2.csv", index=False)
-
-# Download the file
-files.download("cleaned_data2.csv")
 
 """# **Exploratory Data Analysis (EDA) on customers.csv**
 
