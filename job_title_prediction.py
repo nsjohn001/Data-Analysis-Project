@@ -12,9 +12,6 @@ Original file is located at
 """
 import pandas as pd
 
-file_path = "/content/drive/My Drive/Colab Notebooks/customers.csv"
-df = pd.read_csv(file_path, encoding="latin1")
-
 """**Data Inspection: Begin by loading and exploring the dataset (e.g., checking for missing values, data types, and basic statistics).**
 
 **Access the File in Colab**
