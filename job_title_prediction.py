@@ -10,10 +10,6 @@ Original file is located at
 
 **Upload file**
 """
-
-from google.colab import drive
-drive.mount('/content/drive')
-
 import pandas as pd
 
 file_path = "/content/drive/My Drive/Colab Notebooks/customers.csv"
