@@ -1,1 +1,2 @@
 In the competitive world of global fashion retail, understanding customer behavior is crucial for better targeting and personalization. However, missing or "Unknown" job titles in customer data can limit these efforts.
+My objective to create this project is to: Predict missing job titles based on available demographic and behavioral data, and to Evaluate which features (e.g., age, gender, location) contribute most to the job title classification.
